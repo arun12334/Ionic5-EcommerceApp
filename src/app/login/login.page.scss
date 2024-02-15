@@ -1,0 +1,82 @@
+ion-content {
+  --background: #f1f1f1;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+ion-item {
+  --padding-start: 0;
+  --padding-end: 0;
+  margin-bottom: 16px;
+}
+
+ion-button {
+  --background: #007bff;
+  --color: #fff;
+  --border-radius: 4px;
+}
+ion-content {
+  --background: transparent; /* Set the ion-content background to transparent */
+  background-image: url('../../assets/loginlogo.jpg'); /* Add the path to your background image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent background image repetition */
+  background-position: center center;
+
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+ion-item {
+  --padding-start: 0;
+  --padding-end: 0;
+  margin-bottom: 16px;
+}
+
+/* Customize the background color for the forgot password button */
+ion-button.forgot {
+  --background: brown;
+  --color: #fff;
+  --border-radius: 4px;
+}
+ion-item {
+  --ion-item-background: #00000000;
+}
+.login-heading{
+  text-align: center;
+}
+.test{
+  background-color: white;
+    text-align: center;
+    color: grey !important;
+    margin-top: 98px;
+    --background: transparent; /* Set the ion-content background to transparent */
+  background-image: url('../../assets/loginlogo1.jpg') ;
+  background-size: 340px 48px;
+}
+ 
+.test.ion-card-header{
+  color: #000;
+}
+.test1{
+  text-align: center; /* Center the login heading */
+  color: #000; 
+  font-size: 20px;
+    font-family: fantasy;
+}

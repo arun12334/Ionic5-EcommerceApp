@@ -1,0 +1,35 @@
+<ion-header>
+   
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="login-container">
+    <ion-card class="test">
+      <ion-card-header class="test1">
+            Login Page 
+      </ion-card-header>
+    </ion-card>
+    <form (ngSubmit)="onSubmit()">
+      <ion-item  >
+        <ion-label position="floating">Username</ion-label>
+        <ion-input type="text"   name="username" [(ngModel)]="username" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" name="password" [(ngModel)]="password" required></ion-input>
+      </ion-item>
+
+      <ion-button type="submit" expand="full">Login</ion-button>
+      <ion-button  class="forgot" expand="full">Forgot Password</ion-button>
+
+
+    </form>
+  </div>
+</ion-content>
+
+<style>
+  ion-item .item-native{
+  background: #000!important;
+}
+</style>

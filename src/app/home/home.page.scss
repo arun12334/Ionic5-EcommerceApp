@@ -1,27 +1,43 @@
-#container {
+ion-content.home-content {
+  --background: transparent;
+  background-image: url('../../assets/loginlogo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.welcome-text h1 {
+  font-size: 32px;
+  color: white;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  font-weight: bold;
+  margin-top: 200px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+ion-button.next-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  --ion-color-base: #007bff;
+  --ion-color-base-rgb: 0, 123, 255;
+  --ion-color-contrast: #ffffff;
+  width: 100px;
+  height: 40px;; /* Set the height of the button */
+  border-radius: 10px; 
+  font-size: 18px/* Adjust the value to change the curvature of the button */
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
 
-  color: #8c8c8c;
 
-  margin: 0;
-}
 
-#container a {
-  text-decoration: none;
-}
+

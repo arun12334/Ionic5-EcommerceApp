@@ -1,0 +1,37 @@
+/* Add any custom styles for the InstructionThreePage here */
+
+/* Set the background image */
+ion-content.instruction-content {
+    --background: transparent;
+    background-image: url('../../assets/loginlogo6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .instruction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .background-image {
+    /* Set the size of the background image container */
+    width: 100%;
+    height: 300px;
+    /* Add any other styles for the background image container here */
+  }
+  
+  /* Style the button to navigate to another page or any other styles */
+  ion-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    --ion-color-base: #007bff;
+    --ion-color-base-rgb: 0, 123, 255;
+    --ion-color-contrast: #ffffff;
+  }
+  
